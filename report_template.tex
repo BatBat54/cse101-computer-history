@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% IEEEconf.cls file must exist in the same directory as the TeX file you want to compile
+\documentclass[letterpaper, 10 pt, conference]{IEEEconf}
+\usepackage[section]{placeins}
+
+\title{\LARGE \bf
+COMPUTER HISTORY\\
+\large Group Topic Expressed In A Few Words
+}
+
+\author{Group Number\\
+\small Mateo Mercado\\
+\small Christobal Ortega\\
+\small Filimon Jaramillo \
+}
+
+% Image/graphics support
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+% Formatting for lists
+\usepackage{enumitem}
+
+% Formatting for media
+\usepackage{float}
+\restylefloat{table}
+\restylefloat{figure}
+
+\begin{document}
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{INTRODUCTION}
+We chose to research the punch card because we were not that familiar with its purpose or use and it was a chance to look at how Computer Scientists overcame the hardware limitations of the time.
+
+The Punch card was how we solved a crucial problem in early computers "How do you get a computer to interpret data?" Our answer were punch cards. Literal cards that had physical holes in them that could then be inserted into a punch card reader and translated into data for the machine to read. This both allowed for data to be better communicated to computers as well as allowed people not as familiar with computers to be able to use them in their daily work which greatly improved performance. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{TIME PERIOD}
+
+The punch card was invented in the 1890s by Herman Hollerith and was used up to the 1980s.
+The Original purpose for the creation of the Punch card was for the 1890 census. Estimates warned that the 1890 census wouldn't be finished before the 1900 census began so the government held a contest to devise a solution. Herman Hollerith won. He suggested recording data on punched cards, which would be read by a tabulating machine. Later on the punch card was used for big business to store data, process data, and do math. IBM evolved from Hollerith’s Tabulating Machine Company was the original tech giant, from 1930s to 1970s, punched cards dominated data processing until they became outdated in the 1980 by the magnetic tape.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{COMPUTER HARDWARE}
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{||c | p{35mm} ||} 
+\hline
+  Hardware & Description \\
+\hline\hline
+Hollerith Electric Tabulating System & A machine used to read information stored on punched cards \\ 
+\hline
+Dials & Was used to counted the number of cards with holes in a particular position \\
+\hline
+Sorter & Would be activated by certain hole combinations, allowing detailed statistics to be generated) \\
+\hline
+\end{tabular}
+\label{tbl:example}
+\end{center}
+\end{table}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{hw3/images/Used_Punchcard_(5151286161).jpg}
+    \caption{Example of a Punch Card}
+    \label{fig:my_label}
+\end{figure}
+
+\section{COMPUTER SOFTWARE}
+
+Punch cards were used before we had a concept of computer software. Computers of the time did not have many of the electronic components we associate with modern computers and so the process's was much more physical and did not require software.
+
+\section{CONCLUSION}
+
+Before this project we knew very little about punch cards and their uses and were surprised with a lot of the information that was presented to us. In retrospect the idea to use cards to input data into a machine makes sense but the ingenuity required to see such a solution was astonishing. Its fascinating to see how far we have come in computing from such a short time frame. The technology used in punch cards is seen as mostly archaic now even though many of the components used are newer than those used in other fields, it puts how rapidly developments occur in Computer Science compared to some other fields.
+
+\section*{REFERENCES}
+
+
+\begin{enumerate}[label={[\arabic*]}]
+\item Frank da Cruz, (2004, January) AN ELECTRIC TABULATING SYSTEM [Online]. fdc@columbia.edu
+\item Computer History Museum, Date Accessed (2021, October), Punched Cards [Online]. 
+\item IBM, Date Accessed(2021, October), The Punched Card Tabulator[Online].
+\end{enumerate}
+
+\end{document}
+
